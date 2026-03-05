@@ -1,6 +1,7 @@
 [gh-conf-ssh-keys]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 [gh-troubleshoot-ssh-keys-conf]: https://docs.github.com/authentication/troubleshooting-ssh
-
+[claude-pricing]: https://claude.com/pricing
+[claude-install]: https://claude.com/product/claude-code
 
 ![AI Coding Labb](resources/heading-image.png)
 
@@ -17,9 +18,23 @@ We'll go over two different exercises where we'll work together with Claude Code
 
 # Getting Started
 
+## Creating a Claude.ai subscription
+
+We need an active subscription with Claude.ai, navigate to [Claude Pricing][claude-pricing] and select "Try Claude" under the Free Plan which should suffice.
+
+## Installing Claude Code
+
+Naviaget to [Install Claude Code][claude-install] and select the option that suits your platform and workstation configuration.
+
+### GitHub Codespaces
+
+You may install the Claude Code extension via the Plugin Browser just as you'd do for the desktop version of Visual Studio Code; you may do this after you have boostrapped your codespace described in the following steps.
+
 ## Fork the Repository
 
 You'll work on a copy of this repository (forked), to do so locate the the fork button found at the top of the repository page, along _Watch_ and _Star_.
+
+![gh-code-toolbar](resources/gh-repo-toolbar.png)
 
 1. Click the Fork button.
 2. Make your user is selected in the _Owner_ drop-down.
@@ -33,6 +48,8 @@ Once you are in front page of your forked repository:
 
 1. Click the _Code_ green button which will open up a palette.
 2. Select _Codespaces_ and then click on the green button _Create Codespace on main_. 
+
+![gh-repo-code](resources/gh-codespaces.png)
 
 The above will open up a new tab where a new codepace will be bootstrapped, wait for it to finish whereat you should see an instance of an editor with the file tree on the left side.
 
