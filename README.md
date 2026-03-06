@@ -105,21 +105,4 @@ A companion web API where devices can report security events caught by a local a
 2. Instruct Claude to read `threat_management_app/README.md` and implement the API with tests.
 3. Review the output and iterate with follow-up prompts.
 
-# Introductory Information about Claude Code
 
-## Configuration & Permissions
-
-Claude Code can be configured at two levels:
-
-- **`CLAUDE.md`** — a markdown file in your project root that Claude reads at the start of every session. Use it to capture coding conventions, build commands, and any project-specific instructions. Run `/init` to generate one automatically. See the [memory guide][cc-memory] for details.
-- **`settings.json`** — a JSON file at `.claude/settings.json` in your project (or `~/.claude/settings.json` for user-wide settings). Use it to control tool permissions and environment variables. See the [settings reference][cc-settings] for the full list of options.
-
-**Permissions** let you control which tools Claude can use without asking. Rules are defined under a `permissions` key with `allow` and `deny` lists. Deny rules block an operation outright; allow rules let Claude proceed without prompting. See the [permissions documentation][cc-permissions] for the full syntax.
-
-## Sandboxing
-
-> **Note:** This section applies only to participants running the exercises locally with the Claude CLI. GitHub Codespaces users can skip this section.
-
-Sandboxing restricts the commands Claude Code can run to a defined set of filesystem paths and network hosts, reducing the risk of unintended changes outside your working directory. Once configured, Claude works freely within those boundaries without prompting for permission on every action.
-
-Run `/sandbox` inside Claude Code to enable and configure the sandbox. On macOS it works out of the box; on Linux and WSL2 additional packages must be installed first — see the [sandboxing documentation][cc-sandboxing] for setup instructions.
