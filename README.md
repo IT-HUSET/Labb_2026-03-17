@@ -9,7 +9,7 @@
 
 ![AI Coding Labb](resources/heading-image.png)
 
-# Pre-requisites
+# Prerequisites
 
 - GitHub account, a free account works.
 - VS Code with the following extensions:
@@ -46,7 +46,7 @@ You may now browse to the new repository under your account.
 Once you are on the front page of your forked repository:
 
 1. Click the _Code_ green button which will open up a palette.
-2. Select _Codespaces_ and then click on the green button _Create Codespace on main_. 
+2. Select _Codespaces_ and then click on the green button _Create Codespace on main_.
 
 ![gh-repo-code](resources/gh-codespaces.png)
 
@@ -57,7 +57,7 @@ This will open a new tab where your codespace will be bootstrapped — wait for 
 Once you are on the front page of your forked repository:
 
 1. Click on the _Code_ green button which will open a palette.
-2. While on the _Local_ tab, _Clone_ using SSH; you may alternatively use the GitHub CLI if you already have set it up.
+2. While on the _Local_ tab, _Clone_ using SSH; you may alternatively use the GitHub CLI if you have already set it up.
 
 ## Installing Claude Code
 
@@ -81,8 +81,8 @@ Once your codespace is up and running, install the Claude Code extension:
 
 Start Claude Code by:
 
-- *VS Code or Codespaces*: if the tab isn't visible yet, hit _Ctrl+Shift+P_ to show the command palette, then Claude > Open in New Tab.
-- *Terminal emulator*: first make sure you are in the directory where you've cloned the repository, then run the command *claude*.
+- _VS Code or Codespaces_: if the tab isn't visible yet, hit _Ctrl+Shift+P_ to show the command palette, then Claude > Open in New Tab.
+- _Terminal emulator_: first make sure you are in the directory where you've cloned the repository, then run the command _claude_.
 
 Select the option to authenticate with a Claude subscription and use your account to sign in.
 
