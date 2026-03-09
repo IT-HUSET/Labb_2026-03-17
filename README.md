@@ -12,12 +12,7 @@
 # Prerequisites
 
 - GitHub account, a free account works.
-- VS Code with the following extensions:
-  - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) — core language support, debugger, test runner
-  - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) — fast IntelliSense and type information
-  - [Pyright](https://marketplace.visualstudio.com/items?itemName=ms-pyright.pyright) — static type checker
-  - [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) — linter and formatter
-  - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) — send HTTP requests and inspect responses directly from VS Code
+- VS Code (extensions may vary)
 - Your preferred terminal emulator (optional, only needed if running locally)
 - Claude Subscription, a _Free_ plan works. You can get one at [Claude Pricing][claude-pricing]
 
